@@ -1,2 +1,1 @@
-# meal
-Site for tasty things
+Yurii Kapustin`
