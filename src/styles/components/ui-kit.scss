@@ -1,0 +1,13 @@
+.ui-kit {
+    width: 100%;
+    max-width: 900px;
+    margin-inline: auto;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__table {
+        width: 100%;
+    }
+}

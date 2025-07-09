@@ -1,0 +1,31 @@
+@use "../mixins/mixins.scss" as mixins;
+
+.button{
+    width: 100%;
+    min-height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    font-family: var(--font-family);
+    color: var(--text-light);
+    cursor: pointer;
+    transition: background-color var(--transition-time) ease-in-out;
+
+    &--primary {
+        background-color: var(--color-primary);
+
+        @include mixins.hover {
+            background-color: green;
+        }
+    }
+
+    &--secondary {
+        background-color: var(--color-secondary);
+
+        @include mixins.hover {
+            background-color: red;
+        }
+    }
+}

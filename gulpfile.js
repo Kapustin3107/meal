@@ -179,7 +179,7 @@ export const styles = () =>
         clearMessages: true
       })
     ], { syntax: postcssScss }))
-    .pipe(dest(paths.dist.styles, { sourcemaps: true }))
+    .pipe(dest(paths.dist.styles, { sourcemaps: false }))
     .pipe(gulpif(args.debug, size(sizeOptions)))
     .pipe(bs.stream())
 

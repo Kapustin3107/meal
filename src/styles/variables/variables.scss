@@ -1,0 +1,21 @@
+:root {
+    // palette
+    --color-primary: #FF7020;
+    --color-secondary: #FFAB08;
+    --color-tertiary: #F2F2F3;
+
+    --dark: #000000;
+    --light: #F9F9F9;
+    --light-secondary: #F2F2F3;
+
+    // fonts
+    --font-family: "Nunito", "Arial", sans-serif;
+
+    //text colors
+    --text-color-primary: var(--dark);
+    --text-color-secondary: #B1B1B1;
+    --text-light: #ffffff;
+
+    // others
+    --transition-time: 0.3s;
+}
